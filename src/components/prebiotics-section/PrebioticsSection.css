@@ -6,3 +6,39 @@
     gap: 4.6em;
 }
 
+@media (max-width: 1024px) {
+    .prebiotics-section {
+        flex-direction: column;
+        padding: 3em 2em;
+        gap: 2em;
+        text-align: center;
+    }
+
+    .prebiotics-content h2 {
+        font-size: 28px;
+    }
+
+    .prebiotics-content p {
+        font-size: 16px;
+    }
+
+    .prebiotics-image img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .prebiotics-section {
+        padding: 2em 1em;
+        gap: 1.5em;
+    }
+
+    .prebiotics-content h2 {
+        font-size: 24px;
+    }
+
+    .prebiotics-content p {
+        font-size: 14px;
+    }
+}

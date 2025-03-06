@@ -71,3 +71,67 @@
     background-color: #ffb29d;
     color:#424153;
 }
+
+@media (max-width: 1024px) {
+    .nutrition-section {
+        flex-direction: column;
+        padding: 3em 2em;
+        gap: 2em;
+    }
+
+    .nutrition-text,
+    .nutrition-image {
+        width: 100%;
+        text-align: center;
+    }
+
+    .nutrition-text h2 {
+        font-size: 28px;
+    }
+
+    .nutrition-section-btn button {
+        width: 100%;
+        max-width: 100%;
+        padding: 12px 20px;
+    }
+
+    .nutrition-section li {
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+    }
+    
+    .nutrition-section .key-points-percent {
+        margin-right: 0;
+        margin-bottom: 0.5em;
+    }
+}
+
+@media (max-width: 480px) {
+    .nutrition-section {
+        padding: 2em 1em;
+        gap: 1em;
+    }
+
+    .nutrition-text h2 {
+        font-size: 24px;
+    }
+
+    .nutrition-section h4 strong {
+        font-size: 16px;
+    }
+
+    .nutrition-section .key-points-percent {
+        font-size: 28px;
+    }
+
+    .nutrition-text p,
+    .nutrition-section li p {
+        font-size: 14px;
+    }
+    
+    .nutrition-section-btn button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}

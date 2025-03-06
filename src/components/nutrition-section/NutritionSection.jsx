@@ -36,7 +36,7 @@ const NutritionSection = () => {
             </div>
         
             <div className="nutrition-image">
-                <img src="/Dog.png" alt="Happy dog with product" />
+                <img src="/Dog.png" alt="Happy dog with product" className='nutrition-image' />
             </div>
         </section>
     );
