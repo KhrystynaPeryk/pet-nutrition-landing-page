@@ -5,14 +5,14 @@ const PrebioticsSection = () => {
         <section className="prebiotics-section">
         
             <div className="prebiotics-content">
-                <h2>
+                <h2 className='app-h2'>
                     Prebiotics nourish the
                     <br />
                     beneficial gut bacteria,
                     <br />
                     supporting digestive health
                 </h2>
-                <p>
+                <p className='app-p'>
                     Our dog food formula contains carefully selected prebiotics that work in harmony with the gut microbiota, 
                     providing the necessary nutrients for the growth and maintenance of beneficial bacteria, ultimately supporting digestive health.
                 </p>
