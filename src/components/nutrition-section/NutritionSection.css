@@ -1,0 +1,89 @@
+.nutrition-section {
+    background-color: #F8F8F8;
+    margin: 5.3em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 22em;
+    gap: 4.6em;
+}
+
+.nutrition-section h2 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0.24px;
+    color: #161723;
+    margin: 0;
+}
+
+.nutrition-section h4 {
+    margin: 3em 0 0.2em 0;
+}
+.nutrition-section h4 strong {
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    color: #161723;
+}
+
+.nutrition-section .key-points-percent {
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 0.25px;
+    color: #EE6F4B;
+    margin-right: 1.5em;
+}
+
+.nutrition-section p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    color: #424153;
+}
+
+.nutrition-section ul {
+    list-style-type:none;
+    padding:0px;
+    margin:0px;
+}
+
+.nutrition-section li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #E3E3E8;
+}
+
+.nutrition-section li p {
+    margin: 0.8em 0;
+}
+
+.nutrition-section li:last-of-type {
+    border-bottom: none;
+}
+
+.nutrition-section-btn button {
+    margin-top: 2.3em;
+    background-color: #EE6F4B;
+    border: none;
+    color: white;
+    padding: 12px 40px;
+    border-radius: 6px;
+    width: 538px;
+    max-width: 538px;
+    
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+}
+
+.nutrition-section-btn button:hover {
+    cursor: pointer;
+    background-color: #ffb29d;
+    color:#424153;
+}
